@@ -1,0 +1,5 @@
+@each $value in $align {
+  .text-#{$value} {
+      text-align: #{$value} !important;
+  }
+}

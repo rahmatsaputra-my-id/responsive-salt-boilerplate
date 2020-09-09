@@ -1,17 +1,4 @@
-# SALT Front-end Boilerplate using Gulp 4
-
-
-## Quickstart guide
-
-* Clone or download this Git repo onto your computer.
-* Install [Node.js](https://nodejs.org/en/) if you don't have it yet (Recomended Version 12.10.0).
-* Run `npm install`
-* Run `gulp` to run the default Gulp task
-
-## Folder Structure
-
-```
-|-- Your Project
+|-- undefined
     |-- .gitignore
     |-- directoryList.md
     |-- README.md
@@ -78,23 +65,19 @@
     |       |-- pages
     |       |   |-- about.html
     |       |   |-- index.html
-    |       |   |-- test.html
     |       |-- shared
     |           |-- footer.html
     |           |-- header.html
     |-- public
         |-- about.html
         |-- index.html
-        |-- test.html
         |-- assets
             |-- css
             |   |-- main.css
             |   |-- maps
             |   |   |-- main.css.map
             |   |   |-- pages
-            |   |   |   |-- homepage.css.map
             |   |-- pages
-            |   |   |-- homepage.css
             |   |-- vendor
             |       |-- bootstrap.css
             |       |-- font-awesome.min.css
@@ -117,6 +100,66 @@
             |   |-- glyphicons-halflings-regular.ttf
             |   |-- glyphicons-halflings-regular.woff
             |   |-- glyphicons-halflings-regular.woff2
+            |   |-- JosefinSans-Bold.eot
+            |   |-- JosefinSans-Bold.svg
+            |   |-- JosefinSans-Bold.ttf
+            |   |-- JosefinSans-Bold.woff
+            |   |-- JosefinSans-Bold.woff2
+            |   |-- JosefinSans-Italic.eot
+            |   |-- JosefinSans-Italic.svg
+            |   |-- JosefinSans-Italic.ttf
+            |   |-- JosefinSans-Italic.woff
+            |   |-- JosefinSans-Italic.woff2
+            |   |-- JosefinSans-Light.eot
+            |   |-- JosefinSans-Light.svg
+            |   |-- JosefinSans-Light.ttf
+            |   |-- JosefinSans-Light.woff
+            |   |-- JosefinSans-Light.woff2
+            |   |-- JosefinSans-Regular.eot
+            |   |-- JosefinSans-Regular.svg
+            |   |-- JosefinSans-Regular.ttf
+            |   |-- JosefinSans-Regular.woff
+            |   |-- JosefinSans-Regular.woff2
+            |   |-- JosefinSans-SemiBold.eot
+            |   |-- JosefinSans-SemiBold.svg
+            |   |-- JosefinSans-SemiBold.ttf
+            |   |-- JosefinSans-SemiBold.woff
+            |   |-- JosefinSans-SemiBold.woff2
+            |   |-- JosefinSans-Thin.eot
+            |   |-- JosefinSans-Thin.svg
+            |   |-- JosefinSans-Thin.ttf
+            |   |-- JosefinSans-Thin.woff
+            |   |-- JosefinSans-Thin.woff2
+            |   |-- JosefinSlab-Bold.eot
+            |   |-- JosefinSlab-Bold.svg
+            |   |-- JosefinSlab-Bold.ttf
+            |   |-- JosefinSlab-Bold.woff
+            |   |-- JosefinSlab-Bold.woff2
+            |   |-- JosefinSlab-Italic.eot
+            |   |-- JosefinSlab-Italic.svg
+            |   |-- JosefinSlab-Italic.ttf
+            |   |-- JosefinSlab-Italic.woff
+            |   |-- JosefinSlab-Italic.woff2
+            |   |-- JosefinSlab-Light.eot
+            |   |-- JosefinSlab-Light.svg
+            |   |-- JosefinSlab-Light.ttf
+            |   |-- JosefinSlab-Light.woff
+            |   |-- JosefinSlab-Light.woff2
+            |   |-- JosefinSlab-Regular.eot
+            |   |-- JosefinSlab-Regular.svg
+            |   |-- JosefinSlab-Regular.ttf
+            |   |-- JosefinSlab-Regular.woff
+            |   |-- JosefinSlab-Regular.woff2
+            |   |-- JosefinSlab-SemiBold.eot
+            |   |-- JosefinSlab-SemiBold.svg
+            |   |-- JosefinSlab-SemiBold.ttf
+            |   |-- JosefinSlab-SemiBold.woff
+            |   |-- JosefinSlab-SemiBold.woff2
+            |   |-- JosefinSlab-Thin.eot
+            |   |-- JosefinSlab-Thin.svg
+            |   |-- JosefinSlab-Thin.ttf
+            |   |-- JosefinSlab-Thin.woff
+            |   |-- JosefinSlab-Thin.woff2
             |-- images
             |-- js
                 |-- app.min.js
@@ -128,5 +171,3 @@
                     |-- bootstrap.bundle.min.js
                     |-- jquery.min.js
                     |-- slick.min.js
-
- ```

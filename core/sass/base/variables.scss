@@ -1,0 +1,63 @@
+// FONT FAMILY
+$font_idx: 1;
+$font_default: Helvetica, Arial, sans-serif !default;
+
+// Font Family Ex. (name, 'fonts/path')
+$font_family: (
+    JosefinSans-Bold: '../fonts/JosefinSans-Bold',
+    JosefinSans-Italic: '../fonts/JosefinSans-Italic',
+    JosefinSans-Light: '../fonts/JosefinSans-Light',
+    JosefinSans-Regular: '../fonts/JosefinSans-Regular',
+    JosefinSans-SemiBold: '../fonts/JosefinSans-SemiBold',
+    JosefinSans-Thin: '../fonts/JosefinSans-Thin',
+
+    JosefinSlab-Bold: '../fonts/JosefinSlab-Bold',
+    JosefinSlab-Italic: '../fonts/JosefinSlab-Italic',
+    JosefinSlab-Light: '../fonts/JosefinSlab-Light',
+    JosefinSlab-Regular: '../fonts/JosefinSlab-Regular',
+    JosefinSlab-SemiBold: '../fonts/JosefinSlab-SemiBold',
+    JosefinSlab-Thin: '../fonts/JosefinSlab-Thin'
+);  
+
+//COLORS
+$white: #ffffff;
+$black: #212121;
+$grey: #BDBDBD;
+$darkgrey: #757575;
+$lightblue: #03A9F4;
+$bluegrey: #607D8B;
+$bluegreylighter: #CFD8DC;
+$bluegreydarker: #455A64;
+
+$colors: (
+    white: #ffffff,
+    black: #212121,
+    grey: #BDBDBD,
+    darkgrey: #757575,
+    lightblue: #03A9F4,
+    bluegrey: #607D8B,
+    bluegreylighter: #CFD8DC,
+    bluegreydarker: #455A64
+);
+
+
+// text-align
+$align: left center right;
+
+// vertical-align
+$vertical-align: top middle bottom;
+
+// float
+$float: left right;
+
+// position
+$position: top right bottom left;
+
+// media-query
+$media-query:
+    (laptop, (min-width: 1366px)),
+    (desktop, (min-width: 1200px)),
+    (wide, (min-width: 992px)),
+    (tablet, (min-width: 768px) and (max-width: 991px)),
+    (mobile, (max-width: 767px)),
+    (small-mobile, (max-width: 360px));

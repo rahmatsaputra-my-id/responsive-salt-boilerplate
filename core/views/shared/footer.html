@@ -1,0 +1,17 @@
+
+
+  <footer class="container">
+    <nav>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </nav>
+  </footer>
+
+@@if(context.script) {
+  @@for(var i=0; i < script.length; i++) {
+  <script src="`+script[i]+`" ></script>
+  }
+}
+</body>
+</html>

@@ -1,0 +1,17 @@
+@each $name, $file in $font_family {
+  @if $font_idx==1 {
+    $font_default: $name;
+    $font_idx: 2;
+}
+
+  @font-face {
+    font-family: $name;
+    src: url('#{$file}.eot');
+    src:
+        url('#{$file}.eot') format('embedded-opentype'),
+        url('#{$file}.woff2') format('woff2'),
+        url('#{$file}.woff') format('woff'), 
+        url('#{$file}.ttf') format('truetype'),
+        url('#{$file}.svg#FuturaStdLight') format('svg');
+  }
+} 
